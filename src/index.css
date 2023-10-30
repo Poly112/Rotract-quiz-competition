@@ -1,0 +1,64 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    font-size: 16px;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    outline: none;
+}
+
+body {
+    min-width: 400px !important;
+}
+
+.light {
+    color: var(--text-color-light) !important;
+    background-color: var(--background-color-light);
+}
+
+.dark {
+    color: var(--text-color-dark) !important;
+    background-color: var(--background-color-dark) !important;
+}
+
+:root {
+    --text-color-light: #000;
+    --background-color-light: #fff;
+    --text-color-dark: #fff;
+    --background-color-dark: #000;
+}
+
+main {
+    min-height: 80vh;
+}
+
+.logo1 {
+    width: 40px;
+    height: auto;
+    animation: rotate 5s linear infinite;
+}
+.logo2 {
+    width: 100px;
+    height: auto;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#error-page {
+    margin: 15rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+    justify-content: center;
+    width: 100%;
+}

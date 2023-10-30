@@ -1,0 +1,110 @@
+.question .quest,
+.options {
+    padding: 20px;
+}
+.question {
+    padding: 4rem;
+    background-color: #f9f9f9;
+    min-height: 80vh;
+}
+
+.question .quest p {
+    font-size: 1.5rem;
+    font-weight: 500px;
+}
+
+.question .options p {
+    font-size: 1.25rem;
+}
+.question .controls {
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.question .controls a {
+    padding-right: 2rem;
+}
+
+.question .modal {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.question .modal-content {
+    background-color: #fefefe;
+    padding: 2rem 3rem;
+    width: 50%;
+    height: fit-content;
+    margin: 13rem auto;
+    min-height: 8rem;
+}
+
+.question .modal-content .ok {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.question .modal-content .ok p.correct-option {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.question .modal-content .ok p {
+    font-size: 1.5rem;
+}
+
+.question .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.question .close:hover,
+.question .close:focus {
+    color: #ff2525;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.question .answer button {
+    padding: 10px;
+    color: #007bff;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.question .answer button:hover {
+    color: #fff;
+    background-color: #0056b3;
+}
+.question .back a {
+    padding: 10px;
+    color: #ff2525;
+    border: 1px solid #ff2525;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.question .back a:hover {
+    color: #fff;
+    background-color: #ff2525;
+}

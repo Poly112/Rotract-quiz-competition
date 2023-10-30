@@ -1,0 +1,53 @@
+#question-form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    margin: 0 auto;
+}
+
+#question-form .label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#question-form label {
+    display: block;
+}
+
+#question-form .options {
+    display: flex;
+    column-gap: 1rem;
+}
+
+#question-form input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#question-form input[type="radio"] {
+    margin-right: 5px;
+}
+#question-form input.quest {
+    min-height: 5rem;
+}
+
+#question-form button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#question-form button:hover {
+    background-color: #0056b3;
+}
